@@ -55,9 +55,11 @@ nav a:hover{
 
 .home-title{
     color: #C25847;
+    text-align: center;
 }
 h4{
     color: black;
+    text-align: center;
 }
 .msg h2{
     color: #C25847;
