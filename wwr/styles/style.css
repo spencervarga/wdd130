@@ -1,11 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Russo+One&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
+}
+#logo_link{
+    padding-top: 5px;
 }
 nav a{
     text-align: center;
     color: #023C40;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1
 #hero-msg h4{
@@ -19,6 +25,7 @@ width: 80px;
 }
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 .button-box{
     text-align: center;
@@ -29,47 +36,78 @@ main section{
 #background{
     height: 725px;
     background-color: #023C40;
+    margin-bottom: 90px;
 }
 body{
     background-color: #F5F5F5;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 header{
     background-color: #81C4EE;
+    font-family: "Russo One", Arial, Helvetica, sans-serif;
 }
 nav a:hover{
     background-color: #F5F5F5;
     color: #023C40;
 }
 .book, .join{
-    background-color: #F5F5F5;
-    color: #023C40;
-    text-decoration: none;
-}
-.book:hover, .join:hover{
     background-color: #81C4EE;
     color: #023C40;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.book:hover, .join:hover{
+    background-color: #023C40;
+    color: #F5F5F5;
 }
 .msg{
-    background-color: #F5F5F5;
+    background-color: #81C4EE;
+    line-height: 1.5em;
+    padding: 35px;
+    margin-top: 180px;
 }
-
 .home-title{
     color: #C25847;
     text-align: center;
+    font-family: "Russo One", Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+h2{
+    margin: 0;
 }
 h4{
     color: black;
     text-align: center;
 }
+main section img{
+    box-sizing: border-box;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px solid black;
+}
 .msg h2{
     color: #C25847;
+    font-family: "Russo One", Arial, Helvetica, sans-serif;
 }
 .msg p {
     color: black;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer{
     background-color: #81C4EE;
     color: #F5F5F5;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a{
     color: #F5F5F5;
@@ -83,4 +121,7 @@ footer p{
 }
 footer p a:hover{
     text-decoration: underline;
+}
+footer .social img{
+    padding-top: 15px;
 }
