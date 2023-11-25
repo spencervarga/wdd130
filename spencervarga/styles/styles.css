@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display&family=Roboto&family=Russo+One&display=swap');
+
+:root {
+    --primary-color: beige ;
+    --secondary-color: #484538 ;
+    --accent1-color: #CAD49D;
+    --accent2-color: #652F15;
+}
+header{
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: tan;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+}
+
+nav a{
+    text-align: center;
+    color: #484538;
+    text-decoration: none;
+    padding: 35px;
+}
+
+nav a:hover{
+    color: #652F15; 
+    text-decoration: underline;
+}
+
+.welcome-section{
+    background-color: #CAD49D; 
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.welcome-section h1{
+    font-family: "Montserrat", "Roboto", sans-serif;
+    font-size:2.5em;
+    margin-bottom: 10px;
+}
+
+.intro-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px; 
+    background-color: #484538;
+}
+
+.intro-text {
+    max-width: 60%;
+}
+
+.intro-text p {
+    font-size: 1.2em; 
+    color: white; 
+}
+
+.intro-section img {
+    max-width: 35%; 
+    border-radius: 8px;
+    order: 2;
+}
+
+.nature-section {
+    width: 100%;
+    max-height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.nature-section img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+footer {
+    background-color: tan;
+    color: #484538;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+}
+
+footer a{
+    color: #484538;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.footer-link{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+footer a:hover{
+    color: #652F15;
+    text-decoration: underline;
+}
+
+.social-icons {
+    display: flex; 
+    justify-content: flex-end; 
+}
+
+.contact-button {
+    background-color: #652F15;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-button:hover {
+    background-color: #484538;
+}
+
+html {
+    scroll-behavior: smooth;
+}
