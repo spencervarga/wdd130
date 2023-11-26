@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display&family=Roboto&family=Russo+One&display=swap');
 
 :root {
-    --primary-color: beige ;
+    --primary-color: tan ;
     --secondary-color: #484538 ;
-    --accent1-color: #CAD49D;
+    --accent1-color: #8F9779;
     --accent2-color: #652F15;
 }
 header{
@@ -31,7 +31,7 @@ nav a:hover{
 }
 
 .welcome-section{
-    background-color: #CAD49D; 
+    background-color: #8F9779; 
     height: 400px;
     display: flex;
     flex-direction: column;
