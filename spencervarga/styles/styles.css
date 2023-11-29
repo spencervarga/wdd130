@@ -8,8 +8,14 @@
 }
 header{
     display: grid;
-    grid-template-columns: 150px auto;
-    background-color: tan;
+    grid-template-columns: 64px auto;
+    height: 100%;
+} 
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 nav {
@@ -26,8 +32,40 @@ nav a{
 }
 
 nav a:hover{
-    color: #652F15; 
+    color: white; 
     text-decoration: underline;
+}
+
+.icon-bar {
+    width: 100%; /* Full-width */
+    background-color: tan; /* Dark-grey background */
+    overflow:hidden; /* Overflow due to float */
+    margin: 0;
+    padding: 0;
+    height: 64px;
+  }
+  
+  .icon-bar a {
+    float: left; /* Float links side by side */
+    text-align: center; /* Center-align text */
+    width: 24%; /* Equal width (5 icons with 20% width each = 100%) */
+    padding: 12px 0; /* Some top and bottom padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: white; /* White text color */
+    font-size: 36px; /* Increased font size */
+  }
+  
+  .icon-bar a:hover {
+    background-color: #652F15; /* Add a hover color */
+  }
+  
+  .active {
+    background-color: #484538; /* Add an active/current color */
+  }
+
+body{
+    margin:0;
+    padding: 0;
 }
 
 .welcome-section{
