@@ -4,60 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spencer Varga Resume</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header>
-        <img src="images/Logo.png" alt="logo" height="50">
+        <img src="images/Logo.png" alt="logo" height="64">
 
         <nav>
-                <a href="index.html">Home</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="resume.html">Resume</a>
-                <a href="contact.html" class="contact-link">Contact Me</a>
+            <div class="icon-bar">
+                <a  href="index.html"><i class="fa fa-home"></i></a>
+                <a href="portfolio.html"><i class="fa fa-briefcase"></i></a>
+                <a class="active" href="resume.html"><i class="fa fa-file"></i></a>
+                <a href="contact.html"><i class="fa fa-envelope"></i></a>
+            </div>
         </nav>
     </header>
 
     <main>
-        <section>
+        <section class="resume-section">
             <h1>Resume</h1>
             <p>College student with a passion for Accounting and Coding.</p>
         </section>
     
-        <section>
-            <h2>Work Experience</h2>
-    
-            <article>
+        <section class="work-experience">
+            <div class="text-container">
+                <h2>Work Experience</h2>
+                
+                <article>
+                    <h3>HipSip Drinks</h3>
+                    <h3>General Manager</h3>
+                    <p>September 2021 - Present</p>
+                    <ul>
+                        <li>Order products and ensure all ingredients are in stock; train new team members to be efficient workers; be responsible for the improvement of business</li>
+                        <li>Respond to customers' questions about business opportunities in a timely manner</li>
+                        <li>Greet each customer with enthusiasm and kindness to create an environment where customers will return on a day-to-day basis</li>
+                        <li>Cultivate a work environment of friendliness and fun</li>
+                        <li>Identified areas of improvement in processes to boost efficiency; enhanced order completion by 20%</li>
+                    </ul>
+                </article>
+            </div>
+            <div class="image-container">
                 <img src="images/Optimized-hipsip.jpg" alt="hipsip">
-                <h3>HipSip Drinks General Manager</h3>
-                <p>September 2021 - Present</p>
-                <ul>
-                    <li>Order products and ensure all ingredients are in stock; train new team members to be efficient workers; be responsible for the improvement of business</li>
-                    <li>Respond to customers' questions about business opportunities in a timely manner</li>
-                    <li>Greet each customer with enthusiasm and kindness to create an environment where customers will return on a day-to-day basis</li>
-                    <li>Cultivate a work environment of friendliness and fun</li>
-                    <li>Identified areas of improvement in processes to boost efficiency; enhanced order completion by 20%</li>
-                </ul>
-            </article>
-    
-            <article>
-                <h3>Pick Me Up Drinks Shift Lead</h3>
-                <p>April 2020 - September 2021</p>
-                <ul>
-                    <li>Trained multiple team members; monitored workflow and progress. Responsible for creating over $2000 of profit each day</li>
-                    <li>Sustained a fast pace while dealing with a high volume constantly and increasing speed</li>
-                    <li>Produced more income by upselling products to customers increasing profits</li>
-                    <li>Resolved complaints with customers; boosted company ratings and built relations with customers</li>
-                    <li>Communicated with management about current problems in a timely manner</li>
-                </ul>
-            </article>
+            </div>
         </section>
-    
-        <section>
-            <img src="images/Optimized-byui.png" alt="byui">
-            <h2>Education</h2>
-            <article>
-                <h3>Brigham Young University - Idaho</h3>
-                <p>Bachelor of Science in Accounting</p>
+        
+
+        <section class="education">
+            <div class="image-container">
+                <img src="images/Optimized-byui.png" alt="byui">
+            </div>
+            <div class="text-container">
+                <h2>Education</h2>
+                <article>
+                    <h3>Brigham Young University - Idaho</h3>
+                    <p>Bachelor of Science in Accounting</p>
                 <ul>
                     <li>Anticipated Graduation December 2024</li>
                     <li>Cluster in Computer Information Technology</li>
@@ -67,9 +68,10 @@
                     <li>Studied the GAAP</li>
                 </ul>
             </article>
-        </section>
+        </div>
+    </section>
     
-        <section>
+        <section class="skills">
             <h2>Skills</h2>
             <ul>
                 <li>Communicated with clients and leadership in a Spanish environment</li>
