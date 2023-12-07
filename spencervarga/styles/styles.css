@@ -29,6 +29,7 @@ nav a{
     color: #484538;
     text-decoration: none;
     padding: 35px;
+    font-family: "Roboto";
 }
 
 nav a:hover{
@@ -136,6 +137,7 @@ footer a{
     padding: 10px;
     text-align: center;
     justify-content: space-evenly;
+    font-family: "Roboto";
 }
 
 .footer-link{
@@ -180,10 +182,12 @@ footer a:hover{
 .resume-section h1 {
     color: tan;
     margin-bottom: 10px;
+    font-family: "Montserrat";
 }
 
 .resume-section p{
     color: tan;
+    font-family: "Roboto";
 }
 
 .work-experience {
@@ -201,6 +205,20 @@ footer a:hover{
 .work-experience img {
     border-radius: 8px;
     margin-left: 20px; 
+}
+
+.work-experience h2{
+    font-family: "Montserrat";
+}
+
+.work-experience h3{
+    font-family: "Montserrat";
+}
+.work-experience p{
+    font-family: "Roboto";
+}
+.work-experience li{
+    font-family: "Roboto";
 }
 
 .education {
@@ -224,6 +242,21 @@ footer a:hover{
     margin: 0;
 }
 
+.education h2{
+    font-family: "Montserrat";
+}
+
+.education h3{
+    font-family: "Montserrat";
+}
+
+.education p{
+    font-family: "Roboto";
+}
+
+.education li{
+    font-family: "Roboto";
+}
 
 .skills {
     background-color:#652F15;
@@ -234,6 +267,7 @@ footer a:hover{
 .skills h2 {
     color: tan;
     margin-bottom: 10px;
+    font-family: "Montserrat";
 }
 
 .skills ul {
@@ -246,6 +280,7 @@ footer a:hover{
     color: tan;
     font-size: 1.2em;
     margin-bottom: 10px;
+    font-family: "Roboto";
 }
 
 html {
