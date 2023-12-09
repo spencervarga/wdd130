@@ -172,7 +172,7 @@ footer a:hover{
 
 .resume-section {
     background-color: #484538; 
-    height: 150px;
+    height: 120px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -183,6 +183,7 @@ footer a:hover{
     color: tan;
     margin-bottom: 10px;
     font-family: "Montserrat";
+    font-size:xx-large;
 }
 
 .resume-section p{
@@ -281,6 +282,69 @@ footer a:hover{
     font-size: 1.2em;
     margin-bottom: 10px;
     font-family: "Roboto";
+}
+
+.portfolio{
+    text-align: center;
+    font-family: "Montserrat";
+    height: 60px;
+    margin: 0;
+    padding: 0;
+}
+
+.hipsip {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #8F9779;
+}
+
+.hipsip p {
+    flex: 1;
+    text-align: left;
+    font-family: "Roboto";
+}
+
+.accounting {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #484538;
+}
+
+.accounting img {
+    border-radius: 8px;
+    margin-right: 20px;
+    max-width: 100%;
+}
+
+.accounting p {
+    flex: 1;
+    text-align: left;
+    font-family: "Roboto";
+    margin-left: 20px;
+}
+
+.accounting .text-container {
+    flex: 1;
+    text-align: right; 
+}
+
+.work-in-progress {
+    background-color: #652F15;
+    color: tan;
+    padding: 20px;
+    text-align: center;
+    font-family: "Roboto";
+}
+
+.work-in-progress img {
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin: 0 auto;
 }
 
 html {
